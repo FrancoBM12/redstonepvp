@@ -1,0 +1,16 @@
+name: RedstonePvP
+version: '${project.version}'
+main: com.francobm.redstonepvp.RedstonePvP
+api-version: 1.13
+authors: [ FrancoBM ]
+description: simple plugin for this server.
+website: FrancoBM#2980
+commands:
+  redstonepvp:
+    description: simple command.
+    usage: /<command>
+    aliases: [rpvp]
+  trash:
+    description: trash menu
+    usage: /<command>
+    aliases: [tr]

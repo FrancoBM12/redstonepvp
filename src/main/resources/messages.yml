@@ -1,0 +1,60 @@
+prefix: '&4Redstone&cPvP&f:'
+reload: '%prefix% &aconfiguration reloaded successfully'
+no-permission: '%prefix% &cYou dont have permission to do this!'
+claim:
+  daily:
+    success: '%prefix% &aYou have claimed your daily reward'
+    error: '%prefix% &cYou need to wait %time% to claim your daily reward again'
+    clear: '%prefix% &aDaily reward cooldown has been cleared!'
+  weekly:
+    success: '%prefix% &aYou have claimed your weekly reward'
+    error: '%prefix% &cYou need to wait %time% to claim your weekly reward again'
+    clear: '%prefix% &aWeekly reward cooldown has been cleared!'
+cost:
+  success: '%prefix% &aYou have successfully purchased'
+  error: '%prefix% &cYou need %amount% %item% to buy this item'
+menu:
+  error: '%prefix% &cThe menu does not exist therefore it cannot be opened!'
+  success: '%prefix% &aYou have opened the menu %name%'
+kit:
+  error: '%prefix% &cThat kit does not exist!'
+  no-permission: '%prefix% &cYou do not have permission to get kit %name%'
+  countdown: '%prefix% &cYou need to wait %time% to get the kit again!'
+  success: '%prefix% &aYou have been awarded kit %name%!'
+  clear: '%prefix% &aKit %name% cooldown has been cleared!'
+combat:
+  in-combat: '%prefix% &cYou are in combat for %time%'
+  out-combat: '%prefix% &aYouve gotten out of combat!'
+  teleport: '%prefix% &cYou cant teleport in combat!'
+  command: '%prefix% You cant use commands in combat!'
+anvil:
+  success: '%prefix% &aYour item has been successfully repaired!'
+  error: '%prefix% &cYou need %amount% %item% to be able to repair this item'
+  not-have-item: '%prefix% &cYou need an item in hand to be able to repair!'
+  not-is-item: '%prefix% &cThe item you are trying to repair is not a repairable item!'
+item-frame:
+  put: '%prefix% &aYou have successfully placed a kit on the frame!'
+  remove: '%prefix% &cHave a kit removed from the frame successfully!'
+  interact: '%prefix% &aYou got an item!'
+  countdown: '%prefix% &cTo get this item again you must wait %time%'
+death: '%prefix% &a%victim% killed by %attacker%'
+help:
+  users:
+    - '&f&m       &r  &4Redstone&cPvP  &f&m       '
+    - '&7- /redstonepvp help - &fdisplays the list of commands.'
+    - '&7- /redstonepvp kit <name> - &fgive the kit!'
+    - '&7- /redstonepvp daily - &fgive the daily reward!'
+    - '&7- /redstonepvp weekly - &fgive weekly reward!'
+    - '&f&m       &r  &4Redstone&cPvP  &f&m       '
+  admins:
+    - '&f&m       &r  &4Redstone&cPvP  &f&m       '
+    - '&7- /redstonepvp help - &fdisplays the list of commands.'
+    - '&7- /redstonepvp reload - &freload plugin settings.'
+    - '&7- /redstonepvp open shop-gui - &fopen a shop-gui.'
+    - '&7- /redstonepvp kit <name> - &fgive the kit!'
+    - '&7- /redstonepvp kit <name> clear - &fclear countdown of kit!'
+    - '&7- /redstonepvp daily - &fgive the daily reward!'
+    - '&7- /redstonepvp daily clear - &fclear countdown of daily reward!'
+    - '&7- /redstonepvp weekly - &fgive weekly reward!'
+    - '&7- /redstonepvp weekly clear - &fclear countdown of weekly reward!'
+    - '&f&m       &r  &4Redstone&cPvP  &f&m       '

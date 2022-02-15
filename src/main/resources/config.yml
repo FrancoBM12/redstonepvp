@@ -1,0 +1,845 @@
+redstone-dropping: 2
+combat-countdown: 5
+anvil-repair-cost: 25|REDSTONE
+trash:
+  title: '&6Trash'
+  size: 3
+items-potion:
+  poison-axe:
+    item:
+      display: '&6Poison Axe'
+      material: DIAMOND_AXE
+      amount: 1
+      lore:
+        - ''
+        - '&9 give poison 2 on victim'
+        - ''
+      enchants:
+        - 'DAMAGE_ALL:4'
+      potion: 'POISON:2:300'
+  blind-axe:
+    item:
+      display: '&6Blind Axe'
+      material: DIAMOND_AXE
+      amount: 1
+      lore:
+        - ''
+        - '&9 give blindness 2 on victim'
+        - ''
+      enchants:
+        - 'DAMAGE_ALL:4'
+      potion: 'BLINDNESS:2:300'
+  wither-axe:
+    item:
+      display: '&6Wither Axe'
+      material: DIAMOND_AXE
+      amount: 1
+      lore:
+        - ''
+        - '&9 give wither effect on victim'
+        - ''
+      enchants:
+        - 'DAMAGE_ALL:4'
+      potion: 'WITHER:0:300'
+  weakness-axe:
+    item:
+      display: '&6Weakness Axe'
+      material: DIAMOND_AXE
+      amount: 1
+      lore:
+        - ''
+        - '&9 give weakness effect on victim'
+        - ''
+      enchants:
+        - 'DAMAGE_ALL:4'
+      potion: 'WEAKNESS:0:300'
+items:
+  rod:
+    countdown: 0
+    '1':
+      item:
+        display: '&bROD'
+        material: FISHING_ROD
+        amount: 1
+        lore:
+          - '&9This is super!'
+  arrow:
+    countdown: 0
+    '1':
+      item:
+        display: '&bArrow'
+        material: ARROW
+        amount: 1
+        lore:
+          - '&9This is super!'
+  golden_apple:
+    countdown: 0
+    '1':
+      item:
+        display: '&bSuper Apple'
+        material: GOLDEN_APPLE
+        amount: 1
+        lore:
+          - '&9This is super!'
+  youtuber_helmet:
+    countdown: 180
+    '1':
+      item:
+        display: '&5Kit Youtuber'
+        material: DIAMOND_HELMET
+        amount: 1
+        lore:
+          - '&9Kit for Youtubers!'
+        enchants:
+          - PROTECTION_ENVIRONMENTAL:2
+          - DURABILITY:2
+  youtuber_chestplate:
+    countdown: 180
+    '1':
+      item:
+        display: '&5Kit Youtuber'
+        material: DIAMOND_CHESTPLATE
+        amount: 1
+        lore:
+          - '&9Kit for Youtubers!'
+        enchants:
+          - PROTECTION_ENVIRONMENTAL:2
+          - DURABILITY:2
+  youtuber_leggings:
+    countdown: 180
+    '1':
+      item:
+        display: '&5Kit Youtuber'
+        material: DIAMOND_LEGGINGS
+        amount: 1
+        lore:
+          - '&9Kit for Youtubers!'
+        enchants:
+          - PROTECTION_ENVIRONMENTAL:2
+          - DURABILITY:2
+  youtuber_boots:
+    countdown: 180
+    '1':
+      item:
+        display: '&5Kit Youtuber'
+        material: DIAMOND_BOOTS
+        amount: 1
+        lore:
+          - '&9Kit for Youtubers!'
+        enchants:
+          - PROTECTION_ENVIRONMENTAL:2
+          - DURABILITY:2
+  youtuber_sword:
+    countdown: 180
+    '1':
+      item:
+        display: '&5Kit Youtuber'
+        material: DIAMOND_SWORD
+        amount: 1
+        lore:
+          - '&9Kit for Youtubers!'
+        enchants:
+          - DAMAGE_ALL:2
+          - KNOCKBACK:1
+          - FIRE_ASPECT:1
+  youtuber_rod:
+    countdown: 180
+    '1':
+      item:
+        display: '&5Kit Youtuber'
+        material: FISHING_ROD
+        amount: 1
+        lore:
+          - '&9Kit for Youtubers!'
+        enchants:
+          - DURABILITY:1
+  magical_helmet:
+    countdown: 180
+    '1':
+      item:
+        display: '&2Kit Magical'
+        material: DIAMOND_HELMET
+        amount: 1
+        lore:
+          - '&9Kit for Magicals!'
+        enchants:
+          - PROTECTION_ENVIRONMENTAL:3
+          - DURABILITY:3
+  magical_chestplate:
+    countdown: 180
+    '1':
+      item:
+        display: '&2Kit Magical'
+        material: DIAMOND_CHESTPLATE
+        amount: 1
+        lore:
+          - '&9Kit for Magicals!'
+        enchants:
+          - PROTECTION_ENVIRONMENTAL:3
+          - DURABILITY:3
+  magical_leggings:
+    countdown: 180
+    '1':
+      item:
+        display: '&2Kit Magical'
+        material: DIAMOND_LEGGINGS
+        amount: 1
+        lore:
+          - '&9Kit for Magicals!'
+        enchants:
+          - PROTECTION_ENVIRONMENTAL:3
+          - DURABILITY:3
+  magical_boots:
+    countdown: 180
+    '1':
+      item:
+        display: '&2Kit Magical'
+        material: DIAMOND_BOOTS
+        amount: 1
+        lore:
+          - '&9Kit for Magicals!'
+        enchants:
+          - PROTECTION_ENVIRONMENTAL:3
+          - DURABILITY:3
+  magical_sword:
+    countdown: 180
+    '1':
+      item:
+        display: '&2Kit Magical'
+        material: DIAMOND_SWORD
+        amount: 1
+        lore:
+          - '&9Kit for Magicals!'
+        enchants:
+          - DAMAGE_ALL:3
+          - KNOCKBACK:1
+          - FIRE_ASPECT:1
+  magical_rod:
+    countdown: 180
+    '1':
+      item:
+        display: '&2Kit Magical'
+        material: FISHING_ROD
+        amount: 1
+        lore:
+          - '&9Kit for Magicals!'
+        enchants:
+          - DURABILITY:2
+  giant_helmet:
+    countdown: 180
+    '1':
+      item:
+        display: '&eKit Giant'
+        material: DIAMOND_HELMET
+        amount: 1
+        lore:
+          - '&9Kit for Giants!'
+        enchants:
+          - PROTECTION_ENVIRONMENTAL:4
+          - DURABILITY:3
+  giant_chestplate:
+    countdown: 180
+    '1':
+      item:
+        display: '&eKit Giant'
+        material: DIAMOND_CHESTPLATE
+        amount: 1
+        lore:
+          - '&9Kit for Giants!'
+        enchants:
+          - PROTECTION_ENVIRONMENTAL:4
+          - DURABILITY:3
+  giant_leggings:
+    countdown: 180
+    '1':
+      item:
+        display: '&eKit Giant'
+        material: DIAMOND_LEGGINGS
+        amount: 1
+        lore:
+          - '&9Kit for Giants!'
+        enchants:
+          - PROTECTION_ENVIRONMENTAL:4
+          - DURABILITY:3
+  giant_boots:
+    countdown: 180
+    '1':
+      item:
+        display: '&eKit Giant'
+        material: DIAMOND_BOOTS
+        amount: 1
+        lore:
+          - '&9Kit for Giants!'
+        enchants:
+          - PROTECTION_ENVIRONMENTAL:4
+          - DURABILITY:3
+  giant_sword:
+    countdown: 180
+    '1':
+      item:
+        display: '&eKit Giant'
+        material: DIAMOND_SWORD
+        amount: 1
+        lore:
+          - '&9Kit for Giants!'
+        enchants:
+          - DAMAGE_ALL:4
+          - KNOCKBACK:2
+          - FIRE_ASPECT:2
+  giant_rod:
+    countdown: 180
+    '1':
+      item:
+        display: '&eKit Giant'
+        material: FISHING_ROD
+        amount: 1
+        lore:
+          - '&9Kit for Giants!'
+        enchants:
+          - DURABILITY:3
+  helux_helmet:
+    countdown: 180
+    '1':
+      item:
+        display: '&bKit Helux'
+        material: DIAMOND_HELMET
+        amount: 1
+        lore:
+          - '&9Kit for Heluxes!'
+        enchants:
+          - PROTECTION_ENVIRONMENTAL:5
+          - DURABILITY:3
+  helux_chestplate:
+    countdown: 180
+    '1':
+      item:
+        display: '&bKit Helux'
+        material: DIAMOND_CHESTPLATE
+        amount: 1
+        lore:
+          - '&9Kit for Heluxes!'
+        enchants:
+          - PROTECTION_ENVIRONMENTAL:5
+          - DURABILITY:3
+  helux_leggings:
+    countdown: 180
+    '1':
+      item:
+        display: '&bKit Helux'
+        material: DIAMOND_LEGGINGS
+        amount: 1
+        lore:
+          - '&9Kit for Heluxes!'
+        enchants:
+          - PROTECTION_ENVIRONMENTAL:5
+          - DURABILITY:3
+  helux_boots:
+    countdown: 180
+    '1':
+      item:
+        display: '&bKit Helux'
+        material: DIAMOND_BOOTS
+        amount: 1
+        lore:
+          - '&9Kit for Heluxes!'
+        enchants:
+          - PROTECTION_ENVIRONMENTAL:5
+          - DURABILITY:3
+  helux_sword:
+    countdown: 180
+    '1':
+      item:
+        display: '&bKit Helux'
+        material: DIAMOND_SWORD
+        amount: 1
+        lore:
+          - '&9Kit for Heluxes!'
+        enchants:
+          - DAMAGE_ALL:5
+          - KNOCKBACK:2
+          - FIRE_ASPECT:2
+  helux_rod:
+    countdown: 180
+    '1':
+      item:
+        display: '&bKit Helux'
+        material: FISHING_ROD
+        amount: 1
+        lore:
+          - '&9Kit for Heluxes!'
+        enchants:
+          - DURABILITY:3
+  daily-rewards:
+    countdown: 86400
+    1:
+      item:
+        display: '&6Equipment Daily'
+        material: DIAMOND_HELMET
+        amount: 1
+        lore:
+          - ''
+          - '&9 Test'
+          - ''
+        enchants:
+          - 'PROTECTION_ENVIRONMENTAL:2'
+    2:
+      item:
+        display: '&6Equipment Daily'
+        material: DIAMOND_CHESTPLATE
+        amount: 1
+        lore:
+          - ''
+          - '&9 Test'
+          - ''
+        enchants:
+          - 'PROTECTION_ENVIRONMENTAL:2'
+    3:
+      item:
+        display: '&6Equipment Daily'
+        material: DIAMOND_LEGGINGS
+        amount: 1
+        lore:
+          - ''
+          - '&9 Test'
+          - ''
+        enchants:
+          - 'PROTECTION_ENVIRONMENTAL:2'
+    4:
+      item:
+        display: '&6Equipment Daily'
+        material: DIAMOND_BOOTS
+        amount: 1
+        lore:
+          - ''
+          - '&9 Test'
+          - ''
+        enchants:
+          - 'PROTECTION_ENVIRONMENTAL:2'
+    5:
+      item:
+        display: '&6Sword Weekly'
+        material: DIAMOND_SWORD
+        amount: 1
+        lore:
+          - ''
+          - '&9 Test'
+          - ''
+        enchants:
+          - 'DAMAGE_ALL:2'
+  weekly-rewards:
+    countdown: 604800
+    1:
+      item:
+        display: '&6Equipment Weekly'
+        material: DIAMOND_HELMET
+        amount: 1
+        lore:
+          - ''
+          - '&9 Test'
+          - ''
+        enchants:
+          - 'PROTECTION_ENVIRONMENTAL:4'
+    2:
+      item:
+        display: '&6Equipment Weekly'
+        material: DIAMOND_CHESTPLATE
+        amount: 1
+        lore:
+          - ''
+          - '&9 Test'
+          - ''
+        enchants:
+          - 'PROTECTION_ENVIRONMENTAL:4'
+    3:
+      item:
+        display: '&6Equipment Weekly'
+        material: DIAMOND_LEGGINGS
+        amount: 1
+        lore:
+          - ''
+          - '&9 Test'
+          - ''
+        enchants:
+          - 'PROTECTION_ENVIRONMENTAL:4'
+    4:
+      item:
+        display: '&6Equipment Weekly'
+        material: DIAMOND_BOOTS
+        amount: 1
+        lore:
+          - ''
+          - '&9 Test'
+          - ''
+        enchants:
+          - 'PROTECTION_ENVIRONMENTAL:4'
+    5:
+      item:
+        display: '&6Sword Weekly'
+        material: DIAMOND_SWORD
+        amount: 1
+        lore:
+          - ''
+          - '&9 Test'
+          - ''
+        enchants:
+          - 'DAMAGE_ALL:4'
+    6:
+      item:
+        display: '&6Apple Weekly'
+        material: ENCHANTED_GOLDEN_APPLE
+        amount: 1
+        lore:
+          - ''
+          - '&9 Test'
+          - ''
+        enchants:
+          - 'DAMAGE_ALL:4'
+menus:
+  shop-gui:
+    title: 'Shop Gui'
+    size: 6
+    1:
+      item:
+        display: '&bBow Puch 2'
+        material: BOW
+        lore:
+          - ''
+          - '&9Price: 4 gold'
+          - ''
+        enchants:
+          - 'ARROW_KNOCKBACK:2'
+      slot: 0
+      cost: 4|GOLD_INGOT
+      give-items:
+        - 'BOW;1'
+    2:
+      item:
+        display: '&bBow Puch 3'
+        material: BOW
+        lore:
+          - ''
+          - '&9Price: 8 gold'
+          - ''
+        enchants:
+          - 'ARROW_KNOCKBACK:3'
+      slot: 1
+      cost: 8|GOLD_INGOT
+      give-items:
+        - 'BOW;1'
+    3:
+      item:
+        display: '&bBow Puch 4'
+        material: BOW
+        lore:
+          - ''
+          - '&9Price: 12 gold'
+          - ''
+        enchants:
+          - 'ARROW_KNOCKBACK:4'
+      slot: 2
+      cost: 12|GOLD_INGOT
+      give-items:
+        - 'BOW;1'
+    4:
+      item:
+        display: '&bStrength 1'
+        material: INCREASE_DAMAGE:0:300
+        data: 8201
+        lore:
+          - ''
+          - '&9Price: 8 gold'
+          - ''
+      slot: 4
+      cost: 4|GOLD_INGOT
+      give-items:
+        - 'BOW;1'
+    5:
+      item:
+        display: '&bStrength 2'
+        material: INCREASE_DAMAGE:1:300
+        data: 8201
+        lore:
+          - ''
+          - '&9Price: 1 emerald'
+          - ''
+      slot: 5
+      cost: 1|EMERALD
+      give-items:
+        - 'POTION;1'
+    6:
+      item:
+        display: '&bSpeed 1'
+        material: SPEED:0:300
+        data: 8194
+        lore:
+          - ''
+          - '&9Price: 8 gold'
+          - ''
+      slot: 6
+      cost: 8|GOLD_INGOT
+      give-items:
+        - 'POTION;1'
+    7:
+      item:
+        display: '&bSpeed 2'
+        material: SPEED:1:300
+        data: 8194
+        lore:
+          - ''
+          - '&9Price: 1 emerald'
+          - ''
+      slot: 7
+      cost: 1|EMERALD
+      give-items:
+        - 'POTION;1'
+    8:
+      item:
+        display: '&bRegen 1'
+        material: REGENERATION:0:300
+        data: 8193
+        lore:
+          - ''
+          - '&9Price: 4 gold'
+          - ''
+      slot: 8
+      cost: 4|GOLD_INGOT
+      give-items:
+        - 'POTION;1'
+    9:
+      item:
+        display: '&bNotch x1'
+        material: ENCHANTED_GOLDEN_APPLE
+        lore:
+          - ''
+          - '&9Price: 2 emerald'
+          - ''
+      slot: 9
+      cost: 2|EMERALD
+      give-items:
+        - 'ENCHANTED_GOLDEN_APPLE;1'
+    10:
+      item:
+        display: '&bNotch x5'
+        material: ENCHANTED_GOLDEN_APPLE
+        lore:
+          - ''
+          - '&9Price: 10 emerald'
+          - ''
+      slot: 10
+      cost: 10|EMERALD
+      give-items:
+        - 'ENCHANTED_GOLDEN_APPLE;5'
+    11:
+      item:
+        display: '&bNotch x10'
+        material: ENCHANTED_GOLDEN_APPLE
+        lore:
+          - ''
+          - '&9Price: 20 emerald'
+          - ''
+      slot: 11
+      cost: 20|EMERALD
+      give-items:
+        - 'ENCHANTED_GOLDEN_APPLE;10'
+    12:
+      item:
+        display: '&bNotch x15'
+        material: ENCHANTED_GOLDEN_APPLE
+        lore:
+          - ''
+          - '&9Price: 30 emerald'
+          - ''
+      slot: 12
+      cost: 30|EMERALD
+      give-items:
+        - 'ENCHANTED_GOLDEN_APPLE;15'
+    13:
+      item:
+        display: '&bNotch x20'
+        material: ENCHANTED_GOLDEN_APPLE
+        lore:
+          - ''
+          - '&9Price: 40 emerald'
+          - ''
+      slot: 13
+      cost: 40|EMERALD
+      give-items:
+        - 'ENCHANTED_GOLDEN_APPLE;20'
+    14:
+      item:
+        display: '&bSet Pro'
+        material: DIAMOND_CHESTPLATE
+        lore:
+          - '&5Unbreaking III'
+          - '&6Protection III'
+          -
+          - '&9Price: 3 emerald'
+          - ''
+        enchants:
+          - 'DURABILITY:3'
+          - 'PROTECTION_ENVIRONMENTAL:3'
+      slot: 15
+      cost: 3|EMERALD
+      give-items:
+        - 'DIAMOND_HELMET;1'
+        - 'DIAMOND_CHESTPLATE;1'
+        - 'DIAMOND_LEGGINGS;1'
+        - 'DIAMOND_BOOTS;1'
+    15:
+      item:
+        display: '&bSet Harded'
+        material: DIAMOND_CHESTPLATE
+        lore:
+          - ''
+          - '&9Price: 6 emerald'
+          - ''
+        enchants:
+          - 'DURABILITY:3'
+          - 'PROTECTION_ENVIRONMENTAL:4'
+      slot: 16
+      cost: 6|EMERALD
+      give-items:
+        - 'DIAMOND_HELMET;1'
+        - 'DIAMOND_CHESTPLATE;1'
+        - 'DIAMOND_LEGGINGS;1'
+        - 'DIAMOND_BOOTS;1'
+    16:
+      item:
+        display: '&bAxe Poison 2'
+        material: DIAMOND_AXE
+        lore:
+          - ''
+          - '&9Price: 12 emerald'
+          - ''
+        enchants:
+          - 'DAMAGE_ALL:4'
+      slot: 18
+      cost: 12|EMERALD
+      give-items:
+        - 'poison-axe;1'
+    17:
+      item:
+        display: '&bAxe Blind 2'
+        material: DIAMOND_AXE
+        lore:
+          - ''
+          - '&9Price: 8 emerald'
+          - ''
+        enchants:
+          - 'DAMAGE_ALL:4'
+      slot: 19
+      cost: 8|EMERALD
+      give-items:
+        - 'blind-axe;1'
+    18:
+      item:
+        display: '&bAxe Wither'
+        material: DIAMOND_AXE
+        lore:
+          - ''
+          - '&9Price: 12 emerald'
+          - ''
+        enchants:
+          - 'DAMAGE_ALL:4'
+      slot: 20
+      cost: 12|EMERALD
+      give-items:
+        - 'wither-axe;1'
+    19:
+      item:
+        display: '&bAxe Weakness'
+        material: DIAMOND_AXE
+        lore:
+          - ''
+          - '&9Price: 8 emerald'
+          - ''
+        enchants:
+          - 'DAMAGE_ALL:4'
+      slot: 21
+      cost: 8|EMERALD
+      give-items:
+        - 'weakness-axe;1'
+    20:
+      item:
+        display: '&bSword Sharp 3'
+        material: DIAMOND_SWORD
+        lore:
+          - ''
+          - '&9Price: 1 emerald'
+          - ''
+        enchants:
+          - 'DAMAGE_ALL:3'
+          - 'FIRE_ASPECT:2'
+          - 'KNOCKBACK:1'
+      slot: 23
+      cost: 1|EMERALD
+      give-items:
+        - 'DIAMOND_SWORD;1'
+    21:
+      item:
+        display: '&bSword Sharp 4'
+        material: DIAMOND_SWORD
+        lore:
+          - ''
+          - '&9Price: 3 emerald'
+          - ''
+        enchants:
+          - 'DAMAGE_ALL:4'
+          - 'FIRE_ASPECT:2'
+          - 'KNOCKBACK:2'
+      slot: 24
+      cost: 3|EMERALD
+      give-items:
+        - 'DIAMOND_SWORD;1'
+    22:
+      item:
+        display: '&bSword Sharp 5'
+        material: DIAMOND_SWORD
+        lore:
+          - ''
+          - '&9Price: 6 emerald'
+          - ''
+        enchants:
+          - 'DAMAGE_ALL:5'
+          - 'FIRE_ASPECT:2'
+          - 'KNOCKBACK:2'
+      slot: 25
+      cost: 6|EMERALD
+      give-items:
+        - 'DIAMOND_SWORD;1'
+    23:
+      item:
+        display: '&bConverter 1'
+        material: GOLD_INGOT
+        lore:
+          - ''
+          - '&9Change 32 redstone -> 1 Gold'
+          - ''
+      slot: 38
+      cost: 32|REDSTONE
+      give-items:
+        - 'GOLD_INGOT;1'
+    24:
+      item:
+        display: '&bConverter 2'
+        material: REDSTONE_BLOCK
+        lore:
+          - ''
+          - '&9Change 16 redstone -> 1 Redstone Block'
+          - ''
+      slot: 40
+      cost: 16|REDSTONE
+      give-items:
+        - 'REDSTONE_BLOCK;1'
+    25:
+      item:
+        display: '&bConverter 3'
+        material: EMERALD
+        lore:
+          - ''
+          - '&9Change 16 Gold -> 1 Emerald'
+          - ''
+      slot: 42
+      cost: 16|GOLD_INGOT
+      give-items:
+        - 'EMERALD;1'
